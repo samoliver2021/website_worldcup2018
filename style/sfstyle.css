@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	display : inline;
+}
+
+
+.jumbotron {
+	font-size : 20px;
+	padding: 60px;
+	background-color : #00c8eb;
+	text-align: center;
+	color : white;
+}
+
+body {
+	font-family : 'Quicksand', sans-serif;
+	margin : 0;
+	padding : 0;
+}
+
+  nav li {
+	display : inline;
+	list-style-type: none;
+	margin-right: 20px;
+	font-size : 20px;
+	text-decoration: none;
+}
+
+nav {
+	text-decoration: none;
+	background-color : #00a2c6;
+	padding: 5px;
+	position : sticky;
+	top : 0;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.nav-li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;  
+  color : white;
+
+}
+
+.nav-li a.active {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+  color : white;
+}
+
+.frabel-container {
+	width: 100%;
+	height: 500px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.croeng-container {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding: 10px;
+}
+
+img {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+
+p {
+	margin-top: 60px;
+	text-align: justify;
+	max-width: 1340px;
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.lolos-container {
+	width: 100%;
+	height: 470px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.negara1 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: 150px;
+}
+
+.negara2 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 800px;
+	margin-top: -100px;
+}
+
+.text-negara {
+	font-size: 25px;
+	text-align: right;
+	padding: 30px 0px 0px 0px;
+	margin: -40px 40px 0px 0px;
+}
+
+.flag1 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag2 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+	.frabel-container {
+		 height: 800px;
+	 }
+	 
+	  .croeng-container {
+		 height: 900px;
+	 }
+	
+	img {
+			margin-left: 100px;
+		}
+	 p {
+			max-width: 550px;
+			margin-left: 80px;
+			margin-top: 400px;
+		}
+	
+	.negara1 {
+			margin-left: 50px;
+			margin-top: 150px;
+		}
+		
+		.negara2 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+}

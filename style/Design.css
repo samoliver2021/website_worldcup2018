@@ -1,0 +1,1670 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+	font-family : 'Quicksand', sans-serif;
+	margin : 0;
+	padding : 0;
+}
+
+header {
+	display: inline;
+}
+
+.jumbotron {
+	font-size : 20px;
+	padding: 60px;
+	background-color : #00c8eb;
+	text-align: center;
+	color : white;
+}
+
+
+h1 {
+	max-width: 1800px;
+	font-family: "Quicksand";
+	font-size: 60px;
+
+}
+
+  nav li {
+	display : inline;
+	list-style-type: none;
+	margin-right: 20px;
+	font-size : 25px;
+	text-decoration: none;
+}
+
+nav {
+	text-decoration: none;
+	background-color : #00a2c6;
+	padding: 9px;
+	position : sticky;
+	top : 0;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.nav-li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;  
+  color : white;
+
+}
+
+.nav-li a.active {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+  color : white;
+}
+
+.about-container {
+	width: 100%;
+	height: 540px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.team-container {
+	width: 100%;
+	height: 1180px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+img {
+	margin: 40px;
+	float: left;
+	width: 300px;
+	height: 300px;
+	
+}
+
+p {
+	text-align: justify;
+	max-width: 1420px;
+	font-size: 20px;
+}
+
+
+figure {
+	float :left;
+	margin-top: -50px
+}
+
+figcaption {
+	margin: 95px;
+	font-size: 20px;
+}
+
+
+.stadium-container {
+	width: 100%;
+	height: 3050px;
+	background-color: white;
+	padding: 10px;
+}
+
+
+.stadiumcard1 {
+  height: 650px;
+  width: 400px;
+  margin: 100px 0px 0px 30px;
+  background-color: #ffeebb;
+   border-radius: 30px;
+}
+
+.stadiumcard4 {
+  height: 650px;
+  width: 400px;
+  margin: 170px 0px 0px 30px;
+  background-color: #ffeebb;
+   border-radius: 30px;
+}
+
+.stadiumcard7 {
+  height: 650px;
+  width: 400px;
+  margin: 170px 0px 0px 30px;
+  background-color: #ffeebb;
+   border-radius: 30px;
+}
+
+
+.stadiumcard10 {
+  height: 650px;
+  width: 400px;
+  margin: 150px 0px 0px 40px;
+  background-color: #ffeebb;
+   border-radius: 30px;
+}
+
+.stadiumcard2 {
+  height: 650px;
+  width: 400px;
+  margin: -490px 0px 0px 540px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.stadiumcard3 {
+  height: 650px;
+  width: 400px;
+  margin: -440px 0px 0px 1030px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.img1 {
+	margin-top: -130px;
+	margin-left: 50px;
+}
+
+.img2 {
+	width: 400px;
+	max-height: 200px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+.img3 {
+	width: 300px;
+	max-height: 140px;
+	margin-top: -10px;
+	margin-left: 50px;
+}
+
+.img4 {
+	width: 300px;
+	width: 300px;
+	max-height: 140px;
+	margin-top: -10px;
+	margin-left: 50px;
+}
+
+.img7 {
+	width: 300px;
+	max-height: 140px;
+	margin-top: -10px;
+	margin-left: 50px;
+}
+
+
+.img10 {
+	width: 300px;
+	max-height: 140px;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
+.img5 {
+	width: 300px;
+	max-height: 200px;
+	margin-top: -30px;
+	margin-left: 50px;
+}
+
+.img8 {
+	width: 300px;
+	max-height: 200px;
+	margin-top: -65px;
+	margin-left: 50px;
+}
+
+.img11 {
+	width: 300px;
+	max-height: 200px;
+	margin-top: -65px;
+	margin-left: 50px;
+}
+
+.img6 {
+	width: 300px;
+	max-height: 140px;
+	margin-top: 7px;
+	margin-left: 50px;
+}
+
+.img9 {
+	width: 300px;
+	max-height: 120px;
+	margin-top: -20px;
+	margin-left: 50px;
+}
+
+.img12 {
+	width: 300px;
+	max-height: 120px;
+	margin-top: -20px;
+	margin-left: 50px;
+}
+h3 {
+	font-style: bold;
+	text-align: center;
+	font-size: 35px;
+	padding: 45px;
+}
+
+
+
+.text1{
+	text-align: justify;
+	max-width: 300px;
+	max-height: 200px;
+	margin : -400px 0px 0px 80px;
+}
+
+.text2{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 200px;
+	margin : -450px 0px 0px 580px;
+}
+
+
+.text3{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 1070px;
+}
+
+.text4{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 80px;
+}
+
+.text7{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 80px;
+}
+
+.text10{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 80px;
+}
+
+.text5{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 200px;
+	margin : -450px 0px 0px 580px;
+}
+
+.text8{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 200px;
+	margin : -300px 0px 0px 580px;
+}
+
+.text11{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 200px;
+	margin : -300px 0px 0px 580px;
+}
+.stadiumcard5 {
+  height: 650px;
+  width: 400px;
+  margin: -575px 0px 0px 540px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.stadiumcard8 {
+  height: 650px;
+  width: 400px;
+  margin: -565px 0px 0px 550px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.stadiumcard11 {
+  height: 650px;
+  width: 400px;
+  margin: -566px 0px 0px 550px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.stadiumcard6 {
+  height: 650px;
+  width: 400px;
+  margin: -440px 0px 0px 1030px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.text6{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 1070px;
+}
+
+.stadiumcard9 {
+  height: 650px;
+  width: 400px;
+  margin: -590px 0px 0px 1040px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.stadiumcard12 {
+  height: 650px;
+  width: 400px;
+  margin: -590px 0px 0px 1040px;
+  background-color: #ffeebb;
+  border-radius: 30px;
+}
+
+.text9{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 1070px;
+}
+
+.text12{
+	text-align: justify;
+	max-width: 315px;
+	max-height: 150px;
+	margin : -260px 0px 0px 1070px;
+}
+
+.text-judul {
+	margin: 40px 400px 0px 400px
+}
+
+.negara1 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+
+.negara2 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara3 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara4 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara5 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara6 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara7 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara8 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -105px;
+}
+
+.negara9 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara10 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara11 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara12 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara13 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara14 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara15 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara16 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara17 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara18 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara19 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara20 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara21 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara22 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara23 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara24 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara25 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara26 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara27 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara28 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara29 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara30 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara31 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara32 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+.text-negara {
+	font-size: 25px;
+	text-align: right;
+	padding: 30px 0px 0px 0px;
+	margin: -40px 40px 0px 0px;
+}
+
+.flag1 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag2 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag3 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag4 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+	
+.flag5 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag6 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag7 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag8{
+	width: 60px;
+	height: 60px;
+	margin-top: -50px;
+	margin-left: 30px;
+}
+
+.flag9 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag10 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag11 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag12{
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag13 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag14 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag15 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag16{
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag17 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag18 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag19 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag20{
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag21 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag22 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag23 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag24{
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag25 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag26 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag27 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag28{
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag29 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag30 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag31 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag32{
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.group-container {
+	width: 100%;
+	height: 880px;
+	background-color: white;
+	padding: 10px;
+}
+
+.ro16match.container {
+	width: 100%;
+	height: 930px;
+	background-color: white;
+	padding: 10px;
+}
+
+.qfmatch {
+	width: 100%;
+	height: 330px;
+	background-color: white;
+	padding: 10px;
+}
+
+.sfmatch {
+	width: 100%;
+	height: 330px;
+	height: 330px;
+	background-color: white;
+	padding: 10px;
+}
+.groupa {
+  height: 300px;
+  width: 300px;
+  margin: 50px 0px 0px 60px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+.groupb {
+  height: 300px;
+  width: 300px;
+  margin: -368px 0px 20px 400px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+
+.groupc {
+  height: 300px;
+  width: 300px;
+  margin: -368px 0px 20px 740px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+.groupd {
+  height: 300px;
+  width: 300px;
+  margin: -368px 0px 20px 1080px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+.groupe {
+  height: 300px;
+  width: 300px;
+  margin: 50px 0px 0px 60px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+.groupf {
+  height: 300px;
+  width: 300px;
+  margin: -368px 0px 20px 400px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+
+.groupg {
+  height: 300px;
+  width: 300px;
+  margin: -368px 0px 20px 740px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+
+.grouph {
+  height: 300px;
+  width: 300px;
+  margin: -368px 0px 20px 1080px;
+  background-color: #fdbaf8;
+   border-radius: 30px;
+}
+h4 {
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	font-size: 50px;
+	color: red;
+}
+
+ol {
+	font-size: 25px;
+	margin: -30px 0px 0px 50px;
+	
+}
+
+.groupstage-container {
+	width: 100%;
+	height: 515px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.summaryro16-container {
+	width: 100%;
+	height: 515px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.summaryqf-container {
+	width: 100%;
+	height: 515px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.summarysf-container {
+	width: 100%;
+	height: 515px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+.gspicture {
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+	margin-right: 90px;
+	margin-top: 70px;
+}
+
+.text-gs {
+	margin-top: 80px;
+	max-width: 1300px;
+	text-align: justify;
+	font-size: 25px;
+}
+
+.button {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 15px 32px;
+  margin-left: 250px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.match1 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+
+.matchsf1 {
+	margin-top: 100px;
+	margin-left: 200px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.matchsf2 {
+	margin-top: -67px;
+		margin-right: 300px;
+	text-align: right;
+	font-size: 30px;
+	
+}
+
+.biodata1 {
+	margin-top: 100px;
+	margin-left: 700px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.biodata2 {
+	margin-top: 20px;
+margin-left: 700px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.biodata3 {
+	margin-top: 20px;
+	margin-left: 700px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.matchro1 {
+	margin-top: 40px;
+	margin-left: 200px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.matchro2 {
+	margin-top: -67px;
+		margin-right: 300px;
+	text-align: right;
+	font-size: 30px;
+	
+}
+
+.matchro3 {
+	margin-top: 40px;
+	margin-left: 200px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.matchro4 {
+	margin-top: -67px;
+		margin-right: 300px;
+	text-align: right;
+	font-size: 30px;
+	
+}
+
+.matchro5 {
+	margin-top: 40px;
+	margin-left: 200px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.matchro6 {
+	margin-top: -67px;
+		margin-right: 300px;
+	text-align: right;
+	font-size: 30px;
+	
+}
+
+.matchro7 {
+	margin-top: 40px;
+	margin-left: 200px;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.matchro8 {
+	margin-top: -67px;
+		margin-right: 300px;
+	text-align: right;
+	font-size: 30px;
+	
+}
+
+.imgro16 {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 80px; 
+}
+
+.imgqf {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 80px; 
+}
+
+.imgsf {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 40px;
+	margin-right: 80px; 
+}
+
+.imgfinal {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 70px;
+	margin-right: 80px; 
+}
+
+
+.imgprofile {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin-left: 100px;
+	margin-top: -20px;
+	margin-right: 100px; 
+}
+.rangkuman {
+	margin-top: 80px;
+	text-align: justify;
+	max-width: 1340px;
+	font-size: 23px;
+}
+
+.biodata {
+	margin-top: 100px;
+	margin-bottom : 20px;
+	margin-left: 400px;
+	text-align: left;
+	max-width: 840px;
+	font-size: 23px;
+}
+
+.negaraikut {
+		list-style-type: none;
+}
+
+.summaryfinal-container {
+	width: 100%;
+	height: 615px;
+	background-color: white;
+	padding: 10px;
+}
+
+.profile {
+	width: 100%;
+	height: 515px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+footer {
+	padding : 20px;
+	color : white;
+	background-color : #00a2c6;
+	font-weight: bold;
+}
+
+.footertext {
+	text-align: center;
+}
+
+    @media screen and (max-width: 1000px) {
+		nav {
+			height: 120px;
+			width: 100%;
+		}
+		
+		.about-container {
+			width: 100%;
+			height: 1500px;
+		}
+		
+		figure {
+			margin-left: 160px;
+		}
+		
+		p {
+			width: 570px;
+			margin-left: 65px;
+
+			
+		}
+		
+		.about-container {
+			height: 1150px;
+		}
+		
+		
+		.stadium-container {
+			width: 100%;
+			height: 7700px;
+		}
+		
+		.text-judul {
+			width: 570px;
+			margin-left: 65px;
+		}
+		
+		.stadiumcard1 {
+			margin-left: 150px;
+		}
+		
+	
+		.stadiumcard2 {
+			margin-left: 150px;
+			margin-top: 250px;
+		}
+		
+		.stadiumcard5 {
+			margin-left: 150px;
+			margin-top: 150px;
+		}
+		
+		.stadiumcard6 {
+			margin-left: 150px;
+			margin-top: 300px;
+		}
+		
+		.stadiumcard7 {
+			margin-left: 150px;
+			margin-top: 170px;
+		}
+		
+		.stadiumcard8 {
+			margin-left: 150px;
+			margin-top: 170px;
+		}
+		
+		.stadiumcard9 {
+			margin-left: 150px;
+			margin-top: 170px;
+		}
+		
+		.stadiumcard10 {
+			margin-left: 150px;
+			margin-top: 170px;
+		}
+		
+		.stadiumcard11 {
+			margin-left: 150px;
+			margin-top: 170px;
+		}
+		
+		.stadiumcard12 {
+			margin-left: 150px;
+			margin-top: 170px;
+		}
+		.stadiumcard3 {
+			margin-left: 150px;
+			margin-top: 300px;
+		}
+		
+		.stadiumcard4 {
+			margin-left: 150px;
+			margin-top: 150px;
+		}
+		
+		.text1 {
+			margin-left: 190px;
+		}
+		
+		.text4 {
+			margin-left: 170px;
+		}
+		
+		.text2 {
+			margin-left: 190px;
+		}
+		
+		.text3 {
+			margin-left: 190px;
+		}
+		
+		.text4 {
+			margin-left: 190px;
+		}
+		
+		.text5 {
+			margin-left: 190px;
+		}
+		
+		.text6 {
+			margin-left: 190px;
+		}
+		
+		.text7 {
+			margin-left: 190px;
+		}
+		
+		.text8 {
+			margin-left: 190px;
+		}
+		
+		.text9 {
+			margin-left: 190px;
+		}
+		
+		.text10 {
+			margin-left: 190px;
+		}
+		
+		.text11 {
+			margin-left: 190px;
+		}
+		
+		.text12 {
+			margin-left: 190px;
+		}
+		.team-container {
+			width: 100%;
+			margin-top: 1000px;
+			height: 2300px;
+		}
+		
+		.text-negara {
+			margin-left: -300px;
+		}
+		
+		.negara3 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara4 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		
+		.negara7 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara8 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		
+		.negara11 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara12 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		
+			.negara15 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara16 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		
+			.negara19 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara20 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		
+			.negara23 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara24 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+			.negara27 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara28 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		
+			.negara31 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara32 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+		.group-container {
+			width: 100%;
+			margin-top: 30px;
+			height: 1600px;
+		}
+		
+		.groupc {
+			margin-left: 60px;
+			margin-top: -10px;
+		}
+		
+		.groupd {
+			margin-left: 400px;
+			margin-top: -360px;
+		}
+		
+		.groupg {
+			margin-left: 60px;
+			margin-top: -10px;
+		}
+		
+		.grouph {
+			margin-left: 400px;
+			margin-top: -360px;
+		}
+		
+		.groupstage-container {
+			width: 100%;
+			height: 850px;
+		}
+		
+		.summaryro16-container {
+			width: 100%;
+			height: 900px;
+		}
+		
+		.gspicture {
+			margin-left: -40px;
+		}
+		
+		.imgro16 {
+			margin-left: 100px;
+		}
+		
+		.imgqf {
+			margin-left: 100px;
+		}
+		
+		.imgsf {
+			margin-left: 100px;
+		}
+		
+		.imgfinal {
+			margin-left: 100px;
+		}
+		
+		.imgprofile {
+			margin-left: 150px;
+			margin-top: 30px;
+		}
+		.summarysf-container {
+			height: 800px;
+		}
+		.text-gs {
+			margin-left: -80px;
+		}
+		
+		.summaryfinal-container {
+			height: 1000px;
+		}
+		.groupstage-container .button {
+			margin-left: 130px;
+		}
+		
+		.summaryro16-container .button {
+			margin-left: 270px;
+		}
+		
+		.summaryqf-container .button {
+			margin-left: 270px;
+		}
+		
+		.summarysf-container .button {
+			margin-left: 280px;
+		}
+		.summaryqf-container {
+			height: 800px;
+		}
+		
+		.ro16match {
+			width: 100%;
+			height: 400px;
+		}
+		
+		.matchro1 {
+			margin-left: 30px;
+		}
+		
+		.matchsf1 {
+			margin-left: 50px;
+		}
+		
+		.matchro2 {
+			margin-left: 130px;
+		}
+		
+		.qfmatch .matchro2 {
+			margin-left: 80px;
+		}
+		
+	.matchro4 {
+			margin-left: 130px;
+		}
+		
+		.qfmatch .matchro4 {
+			margin-left: 80px;
+		}
+		
+		.matchro6 {
+			margin-left: 130px;
+		}
+		
+		.matchro8 {
+			margin-left: 130px;
+		}
+		.matchro3 {
+			margin-left: 30px;
+		}
+	
+		.matchro5 {
+			margin-left: 30px;
+		}
+		
+		.matchro7 {
+			margin-left: 30px;
+		}
+		
+		.profile {
+			margin-top: 100px;
+			height: 900px;
+			max-width: 100%;
+		}
+		
+		.biodata1 {
+			margin-top: 500px;
+			margin-left: 120px;
+		}
+		
+		.biodata2 {
+			margin-top: 50px;
+			margin-left: 100px;
+		}
+		
+		.biodata3 {
+			margin-top: 50px;
+			margin-left: 160px;
+		}
+}

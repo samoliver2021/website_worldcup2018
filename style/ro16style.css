@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	display : inline;
+}
+
+
+.jumbotron {
+	font-size : 20px;
+	padding: 60px;
+	background-color : #00c8eb;
+	text-align: center;
+	color : white;
+}
+
+body {
+	font-family : 'Quicksand', sans-serif;
+	margin : 0;
+	padding : 0;
+}
+
+  nav li {
+	display : inline;
+	list-style-type: none;
+	margin-right: 20px;
+	font-size : 20px;
+	text-decoration: none;
+}
+
+nav {
+	text-decoration: none;
+	background-color : #00a2c6;
+	padding: 5px;
+	position : sticky;
+	top : 0;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.nav-li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;  
+  color : white;
+
+}
+
+.nav-li a.active {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+  color : white;
+}
+
+.fraarg-container {
+	width: 100%;
+	height: 500px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.urupor-container {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding: 10px;
+}
+
+.croden-container {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding: 10px;
+}
+
+.sparus-container {
+	width: 100%;
+	height: 500px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.bramex-container {
+	width: 100%;
+	height: 500px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.beljap-container {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding: 10px;
+}
+
+.sweswi-container {
+	width: 100%;
+	height: 500px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.coleng-container {
+	width: 100%;
+	height: 500px;
+	height: 500px;
+	padding: 10px;
+}
+img {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+
+p {
+	margin-top: 60px;
+	text-align: justify;
+	max-width: 1340px;
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.lolos-container {
+	width: 100%;
+	height: 470px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.negara1 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+
+.negara2 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara3 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara4 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+.negara5 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.negara6 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.negara7 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara8 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -105px;
+}
+
+.text-negara {
+	font-size: 25px;
+	text-align: right;
+	padding: 30px 0px 0px 0px;
+	margin: -40px 40px 0px 0px;
+}
+
+.flag1 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag2 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag3 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag4 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+	
+.flag5 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag6 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag7 {
+	width: 60px;
+	height: 60px;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
+.flag8{
+	width: 60px;
+	height: 60px;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.negara3 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 740px;
+	margin-top: -100px;
+}
+
+.negara4 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 100px;
+  width: 300px;
+	margin-left: 1080px;
+	margin-top: -100px;
+}
+
+ @media screen and (max-width: 1000px) {
+	 nav {
+		 padding: 20px;
+	 }
+	 
+	img {
+			margin-left: 100px;
+		}
+	 
+	 .fraarg-container {
+		 height: 900px;
+	 }
+	 
+	  .urupor-container {
+		 height: 800px;
+	 }
+	 
+	  .sparus-container {
+		 height: 900px;
+	 }
+	 
+	   .bramex-container {
+		 height: 800px;
+	 }
+	 
+	   .croden-container {
+		 height: 900px;
+	 }
+	 
+	  .sweswi-container {
+		 height: 800px;
+	 }
+	 
+	 .beljap-container {
+		 height: 900px;
+	 }
+	 
+	 .coleng-container {
+		 height: 900px;
+	 }
+	 
+	 p {
+			max-width: 550px;
+			margin-left: 80px;
+			margin-top: 400px;
+		}
+	 
+	 .negara3 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+		.negara4 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+	 
+	 .negara7 {
+			margin-left: 50px;
+			margin-top: 80px;
+		}
+		
+	.negara8 {
+			margin-left: 400px;
+			margin-top: -100px;
+		}
+	 
+	 .flag8 {
+		 margin-left: 30px;
+		 margin-top: -40px;
+	 }
+	 .lolos-container {
+		 height: 700px;
+	 }
+}
+
